@@ -1,48 +1,45 @@
 # Title
 DE101 Bootcamp- Code Review Week 10
 
-## Name
-Nikisha Banks
-
 ## Project Members
 Nikisha Banks, Jarvis Wynn, Alex Wallace
 
 ## Technologies Used: 
-Git hub, Visual Studio Code
+Git hub, Visual Studio Code, Google Cloud, Google Looker Studio
 
 ## Languages and tools used: 
-Python, Pandas, Kaggle
-
-## Websites used
-https://www.historycentral.com/Today/21st.html
-https://www.loc.gov/collections/songs-of-america/articles-and-essays/timeline/1950-to-present/printable-timeline/
+Python, Pandas, Kaggle, SQL
 
 ### Kaggle datasets used
-https://www.kaggle.com/datasets/saurabhshahane/music-dataset-1950-to-2019
+ https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data
 
 ## Description:
-This code review is a continuation of the week 5 team project. The goal of the project is to show a visual representation of various datasets that show music trends over time and how they may or may not be affected by world events during the same timeframe.
+In this project, we have created a data pipeline that brings data from Kaggle, transforms it and then stores it as datasets in Google Big Query. Once it is stored, we created several visualizations to show various metrics on NFL betting.
 
 ## Setup/Installation Requirements:
 To run the code in this project:
 1. Clone the repo in Git Hub: 
    a. Click the green "code" button
    b. Under the "Local" tab, copy and paste the URL that is under HTTPS
-2. In the terminal, activate the virtual environment by typing 
+2.  
+3. In the terminal, activate the virtual environment by typing 
         python3.10 -m venv venv
         source venv/bin/activate
-3. Install the requirements from the requirements.txt file by typing:
+4. Install the requirements from the requirements.txt file by typing:
         pip install -r requirements.txt
-4.  Download the data file from Kaggle at : https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset/data
+4.  Download the data file from Kaggle at : 
 
 ## Known Bugs
 No known bugs
 
-## Example of a visual that you will see in this project
-## ![Alt text](image.png)
+### ERD model
+![Image](https://github.com/thehalfkoreanzombie/team-week-10/blob/main/images/team_week_10.drawio.png)
+
+## Project Visuals
+
 
 ## License
-Copyright 2023, Nikisha Banks
+Copyright 2024, Data Stack Academy Fall 2023 Cohort
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
