@@ -17,12 +17,13 @@ Python, Pandas, Kaggle, SQL
 In this project, we have created a data pipeline that brings data from Kaggle, transforms it in Visual Studio using Python and then stores it as datasets in Google Big Query. Once it is stored, several visualizations were created in Google Looker Studio to show various metrics on NFL betting.
 
 # Setup/Installation Requirements:
-To see the code files in this project:
+- To see the code files in this project:
 1. Clone the repo in Git Hub: 
-   a. Click the green "code" button
-   b. Under the "Local" tab, copy and paste the URL that is under HTTPS
-To see the raw data files that were used in this project, [click here] (#kaggle-datasets-used)
-To see the Dashboard for this project 
+        a. Click the green "code" button
+        b. Under the "Local" tab, copy and paste the URL that is under HTTPS
+- To see the raw data files that were used in this project, 
+  [click here] (#kaggle-datasets-used)
+- To see the Dashboard for this project 
   
 # Known Bugs
 No known bugs
@@ -45,6 +46,7 @@ No known bugs
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/TeamID_LookupSchema.png)
 ---
 **Table Views Queries and Schemas**
+---
 Games
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Games_ViewTable.png)
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Query_GamesViewTable.png)
