@@ -10,24 +10,22 @@ Git hub, Visual Studio Code, Google Cloud, Google Looker Studio
 # Languages and tools used: 
 Python, Pandas, Kaggle, SQL
 
-# Kaggle Datasets Used
+<a name="kaggle_data_files"></a>
+# Kaggle Datasets Used:
  https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data
 
 # Description:
-In this project, we have created a data pipeline that brings data from Kaggle, transforms it in Visual Studio using Python and then stores it as datasets in Google Big Query. Once it is stored, several visualizations were created to show various metrics on NFL betting.
+In this project, we have created a data pipeline that brings data from Kaggle, transforms it in Visual Studio using Python and then stores it as datasets in Google Big Query. Once it is stored, several visualizations were created in Google Looker Studio to show various metrics on NFL betting.
 
 # Setup/Installation Requirements:
-To run the code in this project:
+To see the code files in this project:
 1. Clone the repo in Git Hub: 
    a. Click the green "code" button
    b. Under the "Local" tab, copy and paste the URL that is under HTTPS
-2.  
-3. In the terminal, activate the virtual environment by typing 
-        python3.10 -m venv venv
-        source venv/bin/activate
-4. Install the requirements from the requirements.txt file by typing:
-        pip install -r requirements.txt
-4.  Download the data file from Kaggle at : 
+
+To see the raw data files that were used in this project, [click here] (#kaggle_data_files) 
+2. 
+3.  
 
 # Known Bugs
 No known bugs
