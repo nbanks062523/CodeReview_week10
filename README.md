@@ -19,12 +19,13 @@ In this project, we have created a data pipeline that brings data from Kaggle, t
 # Setup/Installation Requirements:
 - To see the code files in this project:
   1. Clone the repo in Git Hub: 
-        a. Click the green "code" button
-        b. Under the "Local" tab, copy and paste the URL that is under HTTPS
+                a. Click the green "code" button
+                b. Under the "Local" tab, copy and paste the URL that is under HTTPS
 - To see the raw data files that were used in this project, 
   [click here](#kaggle-datasets-used)
-- To see the Dashboard for this project 
-  
+- To see the Dashboard for this project:
+        https://lookerstudio.google.com/reporting/dc08b504-e8d6-4cac-b48e-af466d8bb2cf
+
 # Known Bugs
 No known bugs
 
