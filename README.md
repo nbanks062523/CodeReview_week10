@@ -14,7 +14,7 @@ Python, Pandas, Kaggle, SQL
  https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data
 
 # Description:
-In this project, we have created a data pipeline that brings data from Kaggle, transforms it in Visual Studio and then stores it as datasets in Google Big Query. Once it is stored, several visualizations were created to show various metrics on NFL betting.
+In this project, we have created a data pipeline that brings data from Kaggle, transforms it in Visual Studio using Python and then stores it as datasets in Google Big Query. Once it is stored, several visualizations were created to show various metrics on NFL betting.
 
 # Setup/Installation Requirements:
 To run the code in this project:
