@@ -10,7 +10,6 @@ Git hub, Visual Studio Code, Google Cloud, Google Looker Studio
 # Languages and tools used: 
 Python, Pandas, Kaggle, SQL
 
-<a name="kaggle_data_files"></a>
 # Kaggle Datasets Used:
  https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data
 
@@ -22,25 +21,41 @@ To see the code files in this project:
 1. Clone the repo in Git Hub: 
    a. Click the green "code" button
    b. Under the "Local" tab, copy and paste the URL that is under HTTPS
-
-To see the raw data files that were used in this project, [click here] (#kaggle_data_files) 
-2. 
-3.  
-
+To see the raw data files that were used in this project, [click here] (#kaggle-datasets-used)
+To see the Dashboard for this project 
+  
 # Known Bugs
 No known bugs
 
-# ERD model
-![Image](https://github.com/thehalfkoreanzombie/team-week-10/blob/main/images/team_week_10.drawio.png)
-
 # Project Visuals
+## ERD model
+![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/nfl_sports_betting.drawio.png)
+---
 ## Big Query Datasets
-
 **Games Dimension Table Schema**
-![Image](https://github.com/thehalfkoreanzombie/team-week-10/blob/main/images/Games_Dimension_Tble.png)
+![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Games_Dimension_Tble.png)
 ---
 **Over/Under Fact Table Schema**
-![Image](https://github.com/thehalfkoreanzombie/team-week-10/blob/main/images/Ovr_Undr_FctTble.png)
+![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Ovr_Undr_FctTble.png)
+---
+**Points Spread Fact Table Schema**
+![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/fct_points_spread.png)
+---
+**Team Lookup Table Schema**
+![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/TeamID_LookupSchema.png)
+---
+**Table Views Queries and Schemas**
+Games
+![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Games_ViewTable.png)
+![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Query_GamesViewTable.png)
+---
+Over/Under
+![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Ovr_Undr_TbleView.png)
+![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Query_OvrUndrTbleView.png)
+---
+Points Spread
+![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/PointSpread_ViewTable.png)
+![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Query_PointSpreadViewTble.png)
 
 # License
 *Copyright 2024, Data Stack Academy Fall 2023 Cohort*
