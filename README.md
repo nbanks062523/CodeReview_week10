@@ -56,7 +56,6 @@ This section displays the tables, fields and data types contained in the sports 
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/TeamID_LookupSchema.png)
 ---
 ## Table Views Queries and Schemas
-
 In this section, alternate "views" are created that have joined the tables together to allow for greater flexibility in analysis of the data.
 ---
 **Games**
