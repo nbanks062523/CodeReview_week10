@@ -56,6 +56,7 @@ This section displays the tables, fields and data types contained in the sports 
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/TeamID_LookupSchema.png)
 ---
 **Table Views Queries and Schemas**
+In this section, alternate "views" are created that have joined the tables together to allow for greater flexibility in analysis of the data.
 ---
 Games
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Games_ViewTable.png)
@@ -68,6 +69,14 @@ Over/Under
 Points Spread
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/PointSpread_ViewTable.png)
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Query_PointSpreadViewTble.png)
+
+**Sample Page from Sports Betting Dashboard**
+Below is a screenshot of one of the pages on the sports betting dashboard. Some of the metrics represented in this page are: 
+  - A season by season comparisons of wins between the home and away teams
+  - A team by team overview of the percentage of times the winning team scored over the winning line
+  - The Average scores of each game from 1978 to 2023
+
+ ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Dashboard_NB.png) 
 
 # License
 *Copyright 2024, Data Stack Academy Fall 2023 Cohort*
