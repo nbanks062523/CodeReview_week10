@@ -32,10 +32,10 @@ No known bugs
 # Project Visuals
 ## ERD model
 The Entity Relationship Diagram in this project shows 4 tables that represent the following:
-  1. ** Games ** - NFL games that were played between 1978 and 2023
-  2. ** Point Spread ** - This table shows the estimated amt that each team is expected to win by, also known as the "point spread". For instance, if the point spread is listed as -7, that means that the statisticians forecast that the team favorite will will by 7 points or more.
-  3. ** Over/Under ** - This table represents whether or not the total points of each game went over the "over-under line" or not. For instance, if the total points for a game was 35, and the over-under line was forecast at 40, the game will be considered, "under"
-  4. ** Lookup Teams ** - This is a lookup table that contains a 3 digit ID used for looking up the full names of each team. The IDs match columns in all of the other tables.
+  1. **Games** - NFL games that were played between 1978 and 2023
+  2. **Point Spread** - This table shows the estimated amt that each team is expected to win by, also known as the "point spread". For instance, if the point spread is listed as -7, that means that the statisticians forecast that the team favorite will will by 7 points or more.
+  3. **Over/Under** - This table represents whether or not the total points of each game went over the "over-under line" or not. For instance, if the total points for a game was 35, and the over-under line was forecast at 40, the game will be considered, "under"
+  4. **Lookup Teams** - This is a lookup table that contains a 3 digit ID used for looking up the full names of each team. The IDs match columns in all of the other tables.
 
    
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/nfl_sports_betting.drawio.png)
@@ -55,24 +55,25 @@ This section displays the tables, fields and data types contained in the sports 
 **Team Lookup Table Schema**
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/TeamID_LookupSchema.png)
 ---
-**Table Views Queries and Schemas**
+## Table Views Queries and Schemas
+
 In this section, alternate "views" are created that have joined the tables together to allow for greater flexibility in analysis of the data.
 ---
-Games
+**Games**
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Games_ViewTable.png)
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Query_GamesViewTable.png)
 ---
-Over/Under
+**Over/Under**
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Ovr_Undr_TbleView.png)
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Query_OvrUndrTbleView.png)
 ---
-Points Spread
+**Points Spread**
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/PointSpread_ViewTable.png)
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Query_PointSpreadViewTble.png)
 
-**Sample Page from Sports Betting Dashboard**
+## Sample Page from Sports Betting Dashboard
 Below is a screenshot of one of the pages on the sports betting dashboard. Some of the metrics represented in this page are: 
-  - A season by season comparisons of wins between the home and away teams
+  - A season by season comparison of wins between the home and away teams
   - A team by team overview of the percentage of times the winning team scored over the winning line
   - The Average scores of each game from 1978 to 2023
 
