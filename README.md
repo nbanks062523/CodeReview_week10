@@ -31,9 +31,18 @@ No known bugs
 
 # Project Visuals
 ## ERD model
+The Entity Relationship Diagram in this project shows 4 tables that represent the following:
+  1. ** Games ** - NFL games that were played between 1978 and 2023
+  2. ** Point Spread ** - This table shows the estimated amt that each team is expected to win by, also known as the "point spread". For instance, if the point spread is listed as -7, that means that the statisticians forecast that the team favorite will will by 7 points or more.
+  3. ** Over/Under ** - This table represents whether or not the total points of each game went over the "over-under line" or not. For instance, if the total points for a game was 35, and the over-under line was forecast at 40, the game will be considered, "under"
+  4. ** Lookup Teams ** - This is a lookup table that contains a 3 digit ID used for looking up the full names of each team. The IDs match columns in all of the other tables.
+
+   
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/nfl_sports_betting.drawio.png)
 ---
 ## Big Query Datasets
+This section displays the tables, fields and data types contained in the sports betting dataset.
+
 **Games Dimension Table Schema**
 ![Image](https://github.com/nbanks062523/CodeReview_week10/blob/main/images/Games_Dimension_Tble.png)
 ---
